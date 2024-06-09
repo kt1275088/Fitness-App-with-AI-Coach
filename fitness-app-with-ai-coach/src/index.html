@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App with AI Coach</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness App with AI Coach</h1>
+        <div id="workoutRecommendation">
+            <h2>AI Workout Recommendation</h2>
+            <p>Today's recommended workout: <span id="recommendedWorkout"></span></p>
+        </div>
+        <div id="formAnalysis">
+            <h2>Form Analysis</h2>
+            <p>Your current exercise form:</p>
+            <textarea id="exerciseForm" rows="4" cols="50" readonly></textarea>
+        </div>
+        <div id="progressTracking">
+            <h2>Progress Tracking</h2>
+            <p>Your progress:</p>
+            <input type="range" id="progress" min="0" max="100" value="0" disabled>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
